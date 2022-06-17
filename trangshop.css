@@ -1,0 +1,30 @@
+.row div {
+    height: 500px;
+    margin-top: 40px;
+}
+
+.row img {
+    height: 300px;
+}
+
+#giohang ul li a{
+    background-color: #980000;
+    padding: 20px;
+    margin-right: -10px;
+    border-radius: 10px;
+    color: #FFF;
+    text-decoration: none;
+    list-style: none;
+}
+#giohang ul li{
+    list-style: none;
+    margin-left: 230px;
+    margin-top: -10px;
+}
+#gach{
+    border-bottom: 5px solid rgb(174, 0, 0);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    width: 100%;
+    margin-top: 180px;
+ 
+}

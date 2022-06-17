@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dangnhap.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.0-web/fontawesome-free-6.1.0-web/css/all.css">
+</head>
+
+<body>
+    <img src="img/pngtree-flame-letter-f-modern-logo-vector-png-image_1723895.jpg" w>
+    <div class="container">
+        <div class="text-cart">
+            <h2>ĐĂNG NHẬP</h2>
+        </div>
+        <form onsubmit="return checklogin()" name="flogin" method="post" action="xulylogin.php">
+            Tên người dùng hoặc địa chỉ Email<br /> <input placeholder="   Nhập tên người dùng hoặc Email" name="u"
+                id="u" type="text" /> <br />
+            Mật khẩu<br /> <input name="p" id="p" type="password" placeholder="   Nhập mật khẩu" /> <br />
+            <p>Bạn chưa có tài khoản bấm <a href="">Đăng ký</a> tại đây</p>
+            <input type="submit" name="sub" id="sub" value="Đăng Nhập" />
+            <hr class="w-25">
+            <button type="button" class="btn btn-light w-50  border-dark"><i class="fa-brands fa-facebook "></i>
+
+                Đăng nhập với Facebook</button> <br>
+            <button type="button" class="btn btn-light w-50 border-dark google"><i class="fa-brands fa-google "></i>
+                Đăng nhập với Google</button><br>
+
+        </form>
+    </div>
+    <script>
+        function checklogin() {
+            if (document.flogin.u.value == '') {
+                alert("Bạn chưa nhập username");
+                document.flogin.u.focus(); //Chọn đối tượng u
+                return false; // Chặn form không cho submit
+            }
+            if (document.flogin.p.value == '') {
+                alert("Bạn chưa nhập password");
+                document.flogin.p.focus(); //Chọn đối tượng p
+                return false;
+            }
+            return true; // Cho submit form khi đã kiểm tra xong
+        }
+    </script>
+</body>
+
+</html>

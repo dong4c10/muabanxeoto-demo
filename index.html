@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.1.0-web/fontawesome-free-6.1.0-web/css/all.css">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container d-flex flex-row justify-content-between giaodien">
+            <div>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Trang chủ </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chitiet.html">Giới thiệu </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Khuyến mãi </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tin tức </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-regular fa-envelope"></i> dfujchsu@gmail.com</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-regular fa-clock"></i> Làm việc 24/7</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i> 0773529768 </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div></div>
+    </header>
+
+    <main>
+        <div class="container d-flex flex-row justify-content-between main">
+            <div class="d-flex flex-row thep">
+                <img src="img/pngtree-flame-letter-f-modern-logo-vector-png-image_1723895.jpg" width="91px"
+                    height="77px">
+                <div>
+                    <h2>SHEN HOA</h2>
+                    <p class="con">Car Service Center</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="input-group mb-3 ">
+                    <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm tại đây..."
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary seach" type="button" id="button-addon2"><i
+                            class="fa-solid fa-magnifying-glass "></i></button>
+                </div>
+            </div>
+            <div class="my-navbar">
+                <ul class="nav">
+                    <li class="nav-item mau1">
+                        <a class="nav-link" href="#">ĐỔI MÀU NỘI THẤT</a>
+                    </li>
+                    <li class="nav-item mau1">
+                        <a class="nav-link" href="#">BỌC GHẾ DA</a>
+                    </li>
+                    <li class="nav-item mau1">
+                        <a class="nav-link" href="trangshop.html">TRẦN XE ÔTÔ</a>
+                    </li>
+                    <li class="nav-item mau1">
+                        <a class="nav-link" href="#">BỌC VÔ LĂNG</a>
+                    </li>
+                    <li class="nav-item mau1">
+                        <a class="nav-link" href="#">THẢM LÓT</a>
+                    </li>
+                    <div id="usename">
+                        <ul>
+                            <li>
+                                <a href="dangnhap.html">Đăng nhập</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </ul>
+            </div>
+            <hr>
+            <div id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+                <ul id="ul-menu-toggle">
+                    <li class="nav-item mau1">
+                        <a class="nav-link" href="#">ĐỔI MÀU NỘI THẤT</a>
+                    </li>
+                    <li class="nav-item mau1">
+                        <a class="nav-link" href="#">BỌC GHẾ DA</a>
+                    </li>
+                    <li class="nav-item mau1">
+                        <a class="nav-link" href="#">TRẦN XE ÔTÔ</a>
+                    </li>
+                    <li class="nav-item mau1">
+                        <a class="nav-link" href="#">BỌC VÔ LĂNG</a>
+                    </li>
+                    <li class="nav-item mau1">
+                        <a class="nav-link" href="#">THẢM LÓT</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner chuyenanh">
+                <div class="carousel-item active">
+                    <img src="img/Honda-Civic-11th-gen-4.jpg" class="d-block w-80" alt="" width="100%" height="50%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ToyotaFortuner20222-1651638069-6803-1651638288.jpg" class="d-block w-80" alt="" width="100%" height="50%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/8687-duoi-ca-o-to-honda-civic.jpg" class="d-block w-80" alt="" width="100%"
+                        height="50%">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container d-flex flex-row ">
+            <div class="anh1"><img class="anh1" src="img/Mitsubishi-tan-binh-khuyen-mai.jpg" width="100%"></div>
+            <div class="anh1"><img class="anh2" src="img/Mitsubishi-tan-binh-khuyen-mai.jpg" width="100%"></div>
+            <div class="anh1"><img class="anh3" src="img/Mitsubishi-tan-binh-khuyen-mai.jpg" width="100%"></div>
+
+        </div>
+    </footer>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-3" style="background-color: red;">.col-md-3</div>
+            <div class="col-md-3" style="background-color: navy;">.col-md-3</div>
+            <div class="col-md-3" style="background-color: pink;">.col-md-3</div>
+            <div class="col-md-3" style="background-color: yellow;">.col-md-3</div>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="main">
+            <div class="my-navbar">
+
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+
+                </ul>
+                <div class="icons">
+                    <p class="icon"><i class="fa-regular fa-envelope"></i> dfujchsu@gmail.com |</p>
+                    <p class="dongho"><i class="fa-regular fa-clock"></i> Làm việc 24/7 |</p>
+                    <p class="dienthoai"><i class="fa-solid fa-phone"></i> 0773529768</p>
+                    <div class="nav">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="logo">
+            <img src="img/pngtree-flame-letter-f-modern-logo-vector-png-image_1723895.jpg" width="91px" height="77px">
+            <h2>SHEN HOA</h2>
+            <p class="con">Car Service Center</p>
+        </div>
+        <div class="timkiem">
+            <span class="icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="search" id="search" placeholder="  Nhập từ khóa tìm kiếm..." /><i id="timkiem"
+                class="fa-solid fa-magnifying-glass"></i>
+
+        </div>
+        <div class="menu2">
+            <ul>
+                <li><a href="#">ĐỔI MÀU NỘI THẤT</a></li>
+                <li><a href="#">BỌC GHẾ DA</a></li>
+                <li><a href="#">TRẦN XE Ô TÔ</a></li>
+                <li><a href="#">BỌC VÔ LĂNG</a></li>
+            </ul>
+             <img class="anh" src="img/be8ccdc2-20200918_064212.jpg" width="1353px" height="745px"> -->
+    <!-- </div> -->
+    <!-- <footer class="uudai">
+            <img class="anh1" src="img/Artwork_2335x1385px-1.png" width="19%">
+            <img class="anh2" src="img/Mitsubishi-tan-binh-khuyen-mai.jpg" width="25%">
+            <img class="anh3" src="img/3.png" width="22.5%">
+        </footer> -->
+    <main>
+        <div class="container d-flex flex-row">
+            <div class="hot">
+                <p class="xe">XE MỚI VỀ - HOTLINE 0773529768</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- <div class="mau">
+            <img class="honda" src="img/Honda-Civic-11th-gen-4.jpg" width="100%">
+            <div class="banggia">
+                <p style="font-size: 20px; margin-top: 92px;">HONDA CIVIC 2020</p>
+                <p>2020 | 100km | Trắng | Số sàn</p>
+                <p style="font-size: 25px; color: rgb(163, 5, 5);">700</p>
+                <p class="trieu">triệu</p>
+                <p style="color: rgb(189, 189, 189);" class="tragop">$ Trả góp: </p>
+                <p style="font-size: 20px; color: rgb(132, 3, 3);" class="co">Có</p>
+            </div>
+        </div>
+        <div class="mau1">
+            <img class="honda1" src="img/RQfUwoGSeh8O2jk9dLUS.png" width="100%">
+            <div class="banggia1">
+                <p style="font-size: 20px;">HONDA CIVIC 2020</p>
+                <p>2020 | 100km | Trắng | Số sàn</p>
+                <p style="font-size: 25px; color: rgb(163, 5, 5);">700</p>
+                <p class="trieu">triệu</p>
+                <p style="color: rgb(189, 189, 189);" class="tragop">$ Trả góp: </p>
+                <p style="font-size: 20px; color: rgb(132, 3, 3);" class="co">Có</p>
+            </div>
+        </div>
+        <div class="mau2">
+            <img class="honda2" src="img/ngoai-that-xe-toyota-innova-2-0-e-mt-s0-san-2021-1692002j22961.webp"
+                width="100%">
+            <div class="banggia2">
+                <p style="font-size: 20px;">HONDA CIVIC 2020</p>
+                <p>2020 | 100km | Trắng | Số sàn</p>
+                <p style="font-size: 25px; color: rgb(163, 5, 5);">700</p>
+                <p class="trieu">triệu</p>
+                <p style="color: rgb(189, 189, 189);" class="tragop">$ Trả góp: </p>
+                <p style="font-size: 20px; color: rgb(132, 3, 3);" class="co">Có</p>
+            </div>
+        </div>
+        <div class="mau3">
+            <img class="honda3" src="img/ToyotaFortuner20222-1651638069-6803-1651638288.jpg" width="100%"
+                height="300px">
+            <div class="banggia3">
+                <p style="font-size: 20px;">HONDA CIVIC 2020</p>
+                <p>2020 | 100km | Trắng | Số sàn</p>
+                <p style="font-size: 25px; color: rgb(163, 5, 5);">700</p>
+                <p class="trieu">triệu</p>
+                <p style="color: rgb(189, 189, 189);" class="tragop">$ Trả góp: </p>
+                <p style="font-size: 20px; color: rgb(132, 3, 3);" class="co">Có</p>
+            </div>
+        </div> -->
+    <!--  ------------------------------------------------------------------------------- -->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="mau">
+                <img class="honda" src="img/Honda-Civic-11th-gen-4.jpg" width="100%" >
+                <div class="banggia">
+                    <p style="font-size: 20px; margin-top: 92px;">HONDA CIVIC 2020</p>
+                    <p>2020 | 100km | Trắng | Số sàn</p>
+                    <p style="font-size: 25px; color: rgb(163, 5, 5);">700</p>
+                    <p class="trieu">triệu</p>
+                    <p style="color: rgb(189, 189, 189);" class="tragop">$ Trả góp: </p>
+                    <p style="font-size: 20px; color: rgb(132, 3, 3);" class="co">Có</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="mau">
+                <img class="honda" src="img/Honda-Civic-11th-gen-4.jpg" width="100%">
+                <div class="banggia">
+                    <p style="font-size: 20px; margin-top: 92px;">HONDA CIVIC 2020</p>
+                    <p>2020 | 100km | Trắng | Số sàn</p>
+                    <p style="font-size: 25px; color: rgb(163, 5, 5);">700</p>
+                    <p class="trieu">triệu</p>
+                    <p style="color: rgb(189, 189, 189);" class="tragop">$ Trả góp: </p>
+                    <p style="font-size: 20px; color: rgb(132, 3, 3);" class="co">Có</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="mau">
+                <img class="honda" src="img/Honda-Civic-11th-gen-4.jpg" width="100%">
+                <div class="banggia">
+                    <p style="font-size: 20px; margin-top: 92px;">HONDA CIVIC 2020</p>
+                    <p>2020 | 100km | Trắng | Số sàn</p>
+                    <p class="tien" style="font-size: 25px; color: rgb(163, 5, 5);">700</p>
+                    <p class="trieu">triệu</p>
+                    <p style="color: rgb(189, 189, 189);" class="tragop">$ Trả góp: </p>
+                    <p style="font-size: 20px; color: rgb(132, 3, 3);" class="co">Có</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="mau">
+                <img class="honda" src="img/Honda-Civic-11th-gen-4.jpg" width="100%">
+                <div class="banggia">
+                    <p style="font-size: 20px; margin-top: 92px;">HONDA CIVIC 2020</p>
+                    <p>2020 | 100km | Trắng | Số sàn</p>
+                    <p style="font-size: 25px; color: rgb(163, 5, 5);">700</p>
+                    <p class="trieu">triệu</p>
+                    <p style="color: rgb(189, 189, 189);" class="tragop">$ Trả góp: </p>
+                    <p style="font-size: 20px; color: rgb(132, 3, 3);" class="co">Có</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3 class="tintuc"><i class="fa-solid fa-star"></i> TIN TỨC - BÀI VIẾT</h3>
+        <!-- ------------------------------------------------------------------------------------------- -->
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="mau2">
+                <img class="honda" src="img/noi-that-mercedes-s450-21624.png" width="95%">
+                <div class="banggia1">
+                    <p style="font-size: 20px; margin-top: 92px; ">Nội thất xe mercedes s450</p>
+                    <p class="mau3"></p>
+                    <p style="color: rgb(159, 159, 159);">NỘI THẤT Ô TÔ SHEN HOA ???? giới thiệu bộ độc nhất Việt Nam
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="mau2">
+                <img class="honda" src="img/boc-ghe-da-xe-merc-20190415151156304.jpg" width="95%">
+                <div class="banggia1">
+                    <p style="font-size: 20px; margin-top: 92px;">Bọc ghế da cho xe merc</p>
+                    <p class="mau3"></p>
+                    <p style="color: rgb(159, 159, 159);">Đang sở hữu cho mình chiếc xe ô tô thời thượng, mạnh mẽ muốn
+                        thay...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="mau2">
+                <img class="honda" src="img/xehay-mercedes-s400-maybach-review (35).jpg" width="95%">
+                <div class="banggia1">
+                    <p style="font-size: 20px; margin-top: 92px;">Nội thất xe mercedes-s400</p>
+                    <p class="mau3"></p>
+                    <p style="color: rgb(159, 159, 159);">Đổi màu nội thất ô tô tại Hà Nội, Chất Lượng, Uy tín đang
+                        sở...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="mau2">
+                <img class="honda" src="img/noi-that-mercedes-s450-21624.png" width="95%">
+                <div class="banggia1">
+                    <p style="font-size: 20px; margin-top: 92px; ">Nội thất xe mercedes</p>
+                    <p class="mau3"></p>
+                    <p style="color: rgb(159, 159, 159);">Đổi màu nội thất ô tô là bảo vệ toàn bộ nội thất</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="dangky">
+        <div class="container d-flex flex-row form">
+            <div class="hotline">
+                <img src="img/Screenshot 2022-05-28 163557.png" alt="">
+            </div>
+            
+            <div class="form1">
+                <h5>Đăng ký nhận thông tin</h5>
+                <p>Nhận thông tin mới về sản phẩm, Sự kiện và khuyến mãi</p>
+                <form >
+                    <input style="width: 485px;" type="text" placeholder= " Họ và tên..."><br>
+                    <input style="width: 224px;" type="password" placeholder=" Số điện thoại..."><input style="width: 250px; margin-left: 10px;" type="text" placeholder=" Dòng xe mà quý khách muốn kham khảo">
+                </form>
+                <div >
+                    <input style="width: 130px;" class="thongtin" type="button" value="Gửi thông tin">
+                </div>
+            </div>
+            
+        </div>
+        <p class="gach"></p>
+    </main>
+    <footer class="footer">
+        <div class="container d-flex flex-row">
+            <div class="lienhe">
+            <h5>Thông tin liên hệ</h5>
+            <p style="color: gray;">
+                Địa chỉ: 66b Nguyễn Sỹ Sách, Phường 15, Tân Bình, TP - HCM
+                <br><br>
+                Điện thoại: 0773529768
+                <br><br>
+                Email: dfujchsu@gmail.com
+                <br><br>
+                Website: www.shenhoa.com 
+            </p>
+        </div>
+        <div class="ketnoi">
+            <h5>Kết nối với chúng tôi</h5>
+            <div class="iconss">
+            <i  class="fa-brands fa-facebook-square"></i>
+            <i style="padding: 20px;" class="fa-brands fa-youtube"></i>
+            <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="hot1">
+                <div id="xe1">
+                    <p style="margin-bottom: 21px;" >HOTLINE 0773529768</p>
+                </div>
+                
+                <p class="chunhat" style="width: 470px; color: gray;" >Giờ mở cửa: Từ 8:00 - 17:00 hằng ngày, kể cả ngày lễ và Chủ Nhật. 
+
+                   <br> Dịch vụ Support 24/7</p>
+            </div>
+        </div>
+        </div>
+        
+    </footer>
+</body>
+<script>
+    var menuToggle = document.getElementById('menu-toggle')
+    var carousel = document.getElementById('carouselExampleIndicators')
+    var ulMenuToggle = document.getElementById('ul-menu-toggle')
+    var check = true
+    // menuToggle.style.display = 'block'
+    menuToggle.addEventListener('click', () => {
+        if (ulMenuToggle.style.display === "block") {
+            ulMenuToggle.style.display = 'none'
+            carousel.style.marginTop = '0px'
+
+        } else {
+            ulMenuToggle.style.display = 'block'
+            ulMenuToggle.style.left = '0%'
+            ulMenuToggle.style.top = '13.5%'
+            carousel.style.marginTop = '330px'
+            ulMenuToggle.style.height = '325px'
+
+        }
+        // OK
+    })
+</script>
+
+</html>
